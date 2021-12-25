@@ -10,7 +10,6 @@
     "global": {
         "device": "mcs51",
         "optimize-type": "speed",
-        "use-non-free": false,
         "device-options": {
             "mcs51": [
                 "--model-small",
@@ -27,6 +26,6 @@
     "linker": {
         "$mainFileName": "main",
         "output-format": "hex",
-        "misc-controls": "--xram-loc 0x0000"
+        "misc-controls": "--xram-loc 0x0000 --xram-size 0x2000"
     }
 }

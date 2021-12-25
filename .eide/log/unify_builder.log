@@ -1057,3 +1057,417 @@ In file included from .\User_examples\1-1-IIC驱动SSD1306\Src\SSD1306.c:2:
 [2021-12-25 16:19:51]	[done]
 	build successfully !
 
+[2021-12-25 19:30:07]	[done]
+	build successfully !
+
+[2021-12-25 19:31:44]	[done]
+	build successfully !
+
+[2021-12-25 19:32:51]	[done]
+	build successfully !
+
+[2021-12-25 19:33:31]	[done]
+	build successfully !
+
+[2021-12-25 19:34:01]	[done]
+	build successfully !
+
+[2021-12-25 19:34:30]	[done]
+	build successfully !
+
+[2021-12-25 19:36:07]	[done]
+	build successfully !
+
+[2021-12-25 19:36:36]	[done]
+	build successfully !
+
+[2021-12-25 19:36:52]	[done]
+	build successfully !
+
+[2021-12-25 19:50:15]	[done]
+	build successfully !
+
+[2021-12-25 19:55:39]	[done]
+	build successfully !
+
+[2021-12-25 19:56:57]	[done]
+	build successfully !
+
+[2021-12-25 20:11:51]	[done]
+	build successfully !
+
+[2021-12-25 20:15:07]	[done]
+	build successfully !
+
+[2021-12-25 20:16:44]	[done]
+	build successfully !
+
+[2021-12-25 20:25:52]	[done]
+	build successfully !
+
+[2021-12-25 20:26:15]	[done]
+	build successfully !
+
+[2021-12-25 20:30:48]	[done]
+	build successfully !
+
+[2021-12-25 20:33:21]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\1-2-硬件IIC驱动SSD1306\Src\SSD1306.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+In file included from .\User_examples\1-2-硬件IIC驱动SSD1306\Src\SSD1306.c:2:
+./peripheral_lib/include/debug.h:31:1: warning: "FREQ_SYS" redefined
+<command line>:1:1: error: this is the location of the previous definition
+.\User_examples\1-2-硬件IIC驱动SSD1306\Src\SSD1306.c:22: warning 112: function 'OLED_W_SDA' implicit declaration
+.\User_examples\1-2-硬件IIC驱动SSD1306\Src\SSD1306.c:24: warning 112: function 'OLED_W_SCL' implicit declaration
+.\User_examples\1-2-硬件IIC驱动SSD1306\Src\SSD1306.c:26: warning 112: function 'OLED_W_SDA' implicit declaration
+.\User_examples\1-2-硬件IIC驱动SSD1306\Src\SSD1306.c:28: warning 112: function 'OLED_W_SCL' implicit declaration
+.\User_examples\1-2-硬件IIC驱动SSD1306\Src\SSD1306.c:22: error 101: too many parameters 
+.\User_examples\1-2-硬件IIC驱动SSD1306\Src\SSD1306.c:24: error 101: too many parameters 
+.\User_examples\1-2-硬件IIC驱动SSD1306\Src\SSD1306.c:26: error 101: too many parameters 
+.\User_examples\1-2-硬件IIC驱动SSD1306\Src\SSD1306.c:28: error 101: too many parameters
+
+[2021-12-25 20:34:38]	[done]
+	build successfully !
+
+[2021-12-25 20:39:55]	[done]
+	build successfully !
+
+[2021-12-25 20:40:10]	[done]
+	build successfully !
+
+[2021-12-25 20:40:27]	[done]
+	build successfully !
+
+[2021-12-25 20:40:31]	[done]
+	build successfully !
+
+[2021-12-25 20:41:08]	[done]
+	build successfully !
+
+[2021-12-25 20:42:04]	[done]
+	build successfully !
+
+[2021-12-25 20:42:16]	[done]
+	build successfully !
+
+[2021-12-25 20:42:39]	[done]
+	build successfully !
+
+[2021-12-25 20:44:06]	[done]
+	build successfully !
+
+[2021-12-25 20:44:16]	[done]
+	build successfully !
+
+[2021-12-25 20:45:16]	[done]
+	build successfully !
+
+[2021-12-25 20:45:22]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\1-2-硬件IIC驱动SSD1306\Src\SSD1306.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+In file included from .\User_examples\1-2-硬件IIC驱动SSD1306\Src\SSD1306.c:2:
+./peripheral_lib/include/debug.h:31:1: warning: "FREQ_SYS" redefined
+<command line>:1:1: error: this is the location of the previous definition
+.\User_examples\1-2-硬件IIC驱动SSD1306\Src\SSD1306.c:60: error 20: Undefined identifier 'xx'
+.\User_examples\1-2-硬件IIC驱动SSD1306\Src\SSD1306.c:73: error 20: Undefined identifier 'xx'
+
+[2021-12-25 20:45:25]	[done]
+	build successfully !
+
+[2021-12-25 20:46:09]	[done]
+	build successfully !
+
+[2021-12-25 20:46:20]	[done]
+	build successfully !
+
+[2021-12-25 20:47:00]	[done]
+	build successfully !
+
+[2021-12-25 20:47:13]	[done]
+	build successfully !
+
+[2021-12-25 21:03:22]	[done]
+	build successfully !
+
+[2021-12-25 21:05:27]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-1-SPI驱动ST7735s\Src\ST7735s.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+.\User_examples\2-1-SPI驱动ST7735s\Src\ST7735s.c:72: warning 112: function 'SPI_WriteData' implicit declaration
+.\User_examples\2-1-SPI驱动ST7735s\Src\ST7735s.c:72: error 101: too many parameters 
+.\User_examples\2-1-SPI驱动ST7735s\Src\ST7735s.c:73: warning 85: in function Lcd_WriteIndex unreferenced function argument : 'Data'
+.\User_examples\2-1-SPI驱动ST7735s\Src\ST7735s.c:80: warning 112: function 'SPI_WriteData' implicit declaration
+.\User_examples\2-1-SPI驱动ST7735s\Src\ST7735s.c:80: error 101: too many parameters 
+.\User_examples\2-1-SPI驱动ST7735s\Src\ST7735s.c:81: warning 85: in function Lcd_WriteData unreferenced function argument : 'Data'
+.\User_examples\2-1-SPI驱动ST7735s\Src\ST7735s.c:88: warning 112: function 'SPI_WriteData' implicit declaration
+.\User_examples\2-1-SPI驱动ST7735s\Src\ST7735s.c:89: warning 112: function 'SPI_WriteData' implicit declaration
+.\User_examples\2-1-SPI驱动ST7735s\Src\ST7735s.c:88: error 101: too many parameters 
+.\User_examples\2-1-SPI驱动ST7735s\Src\ST7735s.c:89: error 101: too many parameters 
+.\User_examples\2-1-SPI驱动ST7735s\Src\ST7735s.c:90: warning 85: in function LCD_WriteData_16Bit unreferenced function argument : 'Data'
+.\User_examples\2-1-SPI驱动ST7735s\Src\ST7735s.c:352: warning 112: function 'init_all_gpio_to_std8051_status' implicit declaration
+.\User_examples\2-1-SPI驱动ST7735s\Src\ST7735s.c:353: warning 112: function 'SPI_WriteData_by_HW_Init' implicit declaration
+-:0: warning 85: in function main1 unreferenced local variable : 'c'
+
+[2021-12-25 21:05:57]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0177c] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+?ASlink-Error-Could not get 46 consecutive bytes in internal RAM for area DSEG.
+?ASlink-Warning-Undefined Global '_SPI_WriteData_by_HW_Init' referenced by module 'ST7735s'
+?ASlink-Warning-Undefined Global '_init_all_gpio_to_std8051_status' referenced by module 'ST7735s'
+
+
+[2021-12-25 21:06:25]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0177c] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+?ASlink-Error-Could not get 46 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-25 21:06:37]	[done]
+	build successfully !
+
+[2021-12-25 21:06:43]	[done]
+	build successfully !
+
+[2021-12-25 21:07:48]	[done]
+	build successfully !
+
+[2021-12-25 21:11:28]	[done]
+	build successfully !
+
+[2021-12-25 21:12:02]	[done]
+	build successfully !
+
+[2021-12-25 21:12:39]	[done]
+	build successfully !
+
+[2021-12-25 21:12:58]	[done]
+	build successfully !
+
+[2021-12-25 21:13:31]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-1-SPI驱动ST7735s\Src\ST7735s.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+.\User_examples\2-1-SPI驱动ST7735s\Src\ST7735s.c:203: warning 158: overflow in implicit constant conversion
+.\User_examples\2-1-SPI驱动ST7735s\Src\ST7735s.c:209: warning 158: overflow in implicit constant conversion
+.\User_examples\2-1-SPI驱动ST7735s\Src\ST7735s.c:265: error 98: conflict with previous declaration of 'dsp_single_colour' for attribute 'type' at .\User_examples\2-1-SPI驱动ST7735s\Src\/../Inc/ST7735s.h:5
+from type 'void function ( int fixed) fixed'
+  to type 'void function ( unsigned-int fixed) fixed'
+
+[2021-12-25 21:13:47]	[done]
+	build successfully !
+
+[2021-12-25 21:15:33]	[done]
+	build successfully !
+
+[2021-12-25 21:15:42]	[done]
+	build successfully !
+
+[2021-12-25 21:15:47]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0177c] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+?ASlink-Error-Could not get 46 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-25 21:15:56]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0177c] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+?ASlink-Error-Could not get 46 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-25 21:18:16]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0177c] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+?ASlink-Error-Could not get 46 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-25 21:19:32]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0177c] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+?ASlink-Error-Could not get 46 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-25 21:20:13]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0177c] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+?ASlink-Error-Could not get 46 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-25 21:23:12]	[done]
+	build successfully !
+
+[2021-12-25 21:44:22]	[done]
+	build successfully !
+
+[2021-12-25 21:47:22]	[done]
+	build successfully !
+
+[2021-12-25 21:50:43]	[done]
+	build successfully !
+
+[2021-12-25 21:50:52]	[done]
+	build successfully !
+
+[2021-12-25 21:54:14]	[done]
+	build successfully !
+
+[2021-12-25 21:54:50]	[done]
+	build successfully !
+
+[2021-12-25 21:57:43]	[done]
+	build successfully !
+
+[2021-12-25 21:59:18]	[done]
+	build successfully !
+
+[2021-12-25 22:00:13]	[done]
+	build successfully !
+
+[2021-12-25 22:01:23]	[done]
+	build successfully !
+
+[2021-12-25 22:01:27]	[done]
+	build successfully !
+
+[2021-12-25 22:07:40]	[done]
+	build successfully !
+
+[2021-12-25 22:08:17]	[done]
+	build successfully !
+
+[2021-12-25 22:09:10]	[done]
+	build successfully !
+
+[2021-12-25 22:09:36]	[done]
+	build successfully !
+
+[2021-12-25 22:09:50]	[done]
+	build successfully !
+
+[2021-12-25 22:10:22]	[done]
+	build successfully !
+
+[2021-12-25 22:11:43]	[done]
+	build successfully !
+
+[2021-12-25 22:14:44]	[done]
+	build successfully !
+
+[2021-12-25 22:15:52]	[done]
+	build successfully !
+
+[2021-12-25 22:15:58]	[done]
+	build successfully !
+
+[2021-12-25 22:16:11]	[done]
+	build successfully !
+
+[2021-12-25 22:21:09]	[done]
+	build successfully !
+
+[2021-12-25 22:25:09]	[done]
+	build successfully !
+
+[2021-12-25 22:25:56]	[done]
+	build successfully !
+
+[2021-12-25 22:28:56]	[done]
+	build successfully !
+
+[2021-12-25 22:29:08]	[done]
+	build successfully !
+
+[2021-12-25 22:29:34]	[done]
+	build successfully !
+
+[2021-12-25 22:29:47]	[done]
+	build successfully !
+
+[2021-12-25 22:29:59]	[done]
+	build successfully !
+
+[2021-12-25 22:33:15]	[done]
+	build successfully !
+
+[2021-12-25 22:34:52]	[done]
+	build successfully !
+
+[2021-12-25 22:45:28]	[done]
+	build successfully !
+
+[2021-12-25 22:46:10]	[done]
+	build successfully !
+
+[2021-12-25 22:47:04]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-3-硬件SPI驱动ST7789\Src\ST7789.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:10: error 69: struct/union/array 'hz16': initialization needs curly braces
+
+[2021-12-25 22:48:24]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-3-硬件SPI驱动ST7789\Src\ST7789.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:52: warning 147: excess elements in array of chars initializer after 'hz16'
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:11: error 69: struct/union/array 'hz16': initialization needs curly braces
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:13: error 69: struct/union/array 'hz16': initialization needs curly braces
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:15: error 69: struct/union/array 'hz16': initialization needs curly braces
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:17: error 69: struct/union/array 'hz16': initialization needs curly braces
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:19: error 69: struct/union/array 'hz16': initialization needs curly braces
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:21: error 69: struct/union/array 'hz16': initialization needs curly braces
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:23: error 69: struct/union/array 'hz16': initialization needs curly braces
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:25: error 69: struct/union/array 'hz16': initialization needs curly braces
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:27: error 69: struct/union/array 'hz16': initialization needs curly braces
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:29: error 69: struct/union/array 'hz16': initialization needs curly braces
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:31: error 69: struct/union/array 'hz16': initialization needs curly braces
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:33: error 69: struct/union/array 'hz16': initialization needs curly braces
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:35: error 69: struct/union/array 'hz16': initialization needs curly braces
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:37: error 69: struct/union/array 'hz16': initialization needs curly braces
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:39: error 69: struct/union/array 'hz16': initialization needs curly braces
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:41: error 69: struct/union/array 'hz16': initialization needs curly braces
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:43: error 69: struct/union/array 'hz16': initialization needs curly braces
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:45: error 69: struct/union/array 'hz16': initialization needs curly braces
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:47: error 69: struct/union/array 'hz16': initialization needs curly braces
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:49: error 69: struct/union/array 'hz16': initialization needs curly braces
+.\User_examples\2-3-硬件SPI驱动ST7789\Src\/../Inc/ST7789_font.h:51: error 69: struct/union/array 'hz16': initialization needs curly braces
+
+[2021-12-25 22:50:44]	[done]
+	build successfully !
+
+[2021-12-25 22:52:56]	[done]
+	build successfully !
+
+[2021-12-25 22:53:35]	[done]
+	build successfully !
+
+[2021-12-25 22:55:33]	[done]
+	build successfully !
+
+[2021-12-25 22:57:12]	[done]
+	build successfully !
+
+[2021-12-25 22:57:31]	[done]
+	build successfully !
+
+[2021-12-25 22:59:46]	[done]
+	build successfully !
+
+[2021-12-25 23:02:52]	[done]
+	build successfully !
+
+[2021-12-25 23:09:52]	[done]
+	build successfully !
+
+[2021-12-25 23:10:23]	[done]
+	build successfully !
+
+[2021-12-25 23:12:47]	[done]
+	build successfully !
+
+[2021-12-25 23:21:51]	[done]
+	build successfully !
+
+[2021-12-25 23:22:40]	[done]
+	build successfully !
+
+[2021-12-26 00:15:24]	[done]
+	build successfully !
+
+[2021-12-26 00:16:08]	[done]
+	build successfully !
+
