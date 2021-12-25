@@ -1,0 +1,45 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "*.C": "c",
+            ".eideignore": "ignore",
+            "ch554.h": "c",
+            "debug.h": "c",
+            "compiler.h": "c",
+            "stdint.h": "c",
+            "CH557X.H": "cpp",
+            "bitbang.h": "c",
+            "i2c.h": "c",
+            "8051.h": "c",
+            "ssd1306.h": "c",
+            "stdio.h": "c"
+        },
+        "C_Cpp.default.intelliSenseMode": "gcc-arm",
+        "C_Cpp.default.browse.databaseFilename": "./.vscode/cpptools/browse.vc.db",
+        "files.autoGuessEncoding": true,
+        "C_Cpp.default.cppStandard": "c++14",
+        "C_Cpp.default.cStandard": "c99",
+        "EIDE.ARM.Option.AutoGenerateRTE_Components": false,
+        "[yaml]": {
+            "editor.insertSpaces": true,
+            "editor.tabSize": 4,
+            "editor.autoIndent": "advanced"
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "cl.eide",
+            "keroc.hex-fmt",
+            "xiaoyongdong.srecord",
+            "hars.cppsnippets",
+            "zixuanwang.linkerscript",
+            "redhat.vscode-yaml",
+            "cl.stm8-debug"
+        ]
+    }
+}

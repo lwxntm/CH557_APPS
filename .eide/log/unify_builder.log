@@ -1,0 +1,1059 @@
+[2021-12-25 09:53:40]	[done]
+	build successfully !
+
+[2021-12-25 09:56:36]	[done]
+	build successfully !
+
+[2021-12-25 10:00:25]	compilation failed at : "e:\CanDelete\WCH_8051_projs\1-3-SDCC_Blink\Blink\examples\blink\main.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015af] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+In file included from .\examples\blink\main.c:4:
+./peripheral_lib/include/debug.h:16:20: fatal error: absacc.h: No such file or directory
+compilation terminated.
+
+[2021-12-25 10:04:01]	compilation failed at : "e:\CanDelete\WCH_8051_projs\1-3-SDCC_Blink\Blink\examples\blink\main.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015af] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:420:1: warning: "bTXD1_" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:256:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:421:1: warning: "bRXD1_" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:253:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:436:1: warning: "bAIN3" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:259:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:437:1: warning: "bAIN2" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:216:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:438:1: warning: "bAIN1" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:221:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:439:1: warning: "bAIN0" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:227:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:466:1: warning: "bT2EX_" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:76:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:467:1: warning: "bCAP2_" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:77:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:472:1: warning: "bPWM1" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:214:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:473:1: warning: "bPWM2" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:252:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:572:1: warning: "bRST" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:75:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:599:1: warning: "bPWM1_PIN_X" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:270:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:603:1: warning: "bIO_INT_ACT" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:266:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:726:1: warning: "bPWM1_POLAR" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:376:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:729:1: warning: "bPWM1_OUT_EN" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:379:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:742:1: warning: "bPWM2_OUT_EN" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:378:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:1286:1: warning: "XDATA_RAM_SIZE" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:690:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:1321:1: warning: "DATA_FLASH_ADDR" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:726:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:1322:1: warning: "BOOT_LOAD_ADDR" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:727:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:1323:1: warning: "ROM_CFG_ADDR" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:728:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:1324:1: warning: "ROM_CHIP_ID_LO" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:730:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:1325:1: warning: "ROM_CHIP_ID_HI" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:731:1: error: this is the location of the previous definition
+./peripheral_lib/include/CH557X.H:311: error 0: Duplicate symbol 'GPIO_IE', symbol IGNORED
+./peripheral_lib/include/ch554.h:148: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:364: error 0: Duplicate symbol 'TXD_', symbol IGNORED
+./peripheral_lib/include/ch554.h:192: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:365: error 0: Duplicate symbol 'RXD_', symbol IGNORED
+./peripheral_lib/include/ch554.h:193: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:393: error 0: Duplicate symbol 'TXD1_', symbol IGNORED
+./peripheral_lib/include/ch554.h:239: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:394: error 0: Duplicate symbol 'RXD1_', symbol IGNORED
+./peripheral_lib/include/ch554.h:236: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:409: error 0: Duplicate symbol 'AIN3', symbol IGNORED
+./peripheral_lib/include/ch554.h:242: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:410: error 0: Duplicate symbol 'AIN2', symbol IGNORED
+./peripheral_lib/include/ch554.h:185: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:411: error 0: Duplicate symbol 'AIN1', symbol IGNORED
+./peripheral_lib/include/ch554.h:191: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:412: error 0: Duplicate symbol 'AIN0', symbol IGNORED
+./peripheral_lib/include/ch554.h:198: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:449: error 0: Duplicate symbol 'TXD1', symbol IGNORED
+./peripheral_lib/include/ch554.h:176: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:450: error 0: Duplicate symbol 'RXD1', symbol IGNORED
+./peripheral_lib/include/ch554.h:179: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:453: error 0: Duplicate symbol 'T2_', symbol IGNORED
+./peripheral_lib/include/ch554.h:186: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:454: error 0: Duplicate symbol 'CAP1_', symbol IGNORED
+./peripheral_lib/include/ch554.h:187: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:457: error 0: Duplicate symbol 'PWM1', symbol IGNORED
+./peripheral_lib/include/ch554.h:182: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:458: error 0: Duplicate symbol 'PWM2', symbol IGNORED
+./peripheral_lib/include/ch554.h:235: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:721: error 0: Duplicate symbol 'PWM_DATA2', symbol IGNORED
+./peripheral_lib/include/ch554.h:371: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:722: error 0: Duplicate symbol 'PWM_DATA1', symbol IGNORED
+./peripheral_lib/include/ch554.h:372: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:779: error 0: Duplicate symbol 'SCON1', symbol IGNORED
+./peripheral_lib/include/ch554.h:415: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:788: error 0: Duplicate symbol 'SBUF1', symbol IGNORED
+./peripheral_lib/include/ch554.h:423: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:789: error 0: Duplicate symbol 'SBAUD1', symbol IGNORED
+./peripheral_lib/include/ch554.h:424: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:810: error 0: Duplicate symbol 'ADC_CTRL', symbol IGNORED
+./peripheral_lib/include/ch554.h:427: error 177: previously defined here
+
+[2021-12-25 10:04:21]	compilation failed at : "e:\CanDelete\WCH_8051_projs\1-3-SDCC_Blink\Blink\examples\blink\main.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015af] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:420:1: warning: "bTXD1_" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:256:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:421:1: warning: "bRXD1_" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:253:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:436:1: warning: "bAIN3" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:259:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:437:1: warning: "bAIN2" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:216:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:438:1: warning: "bAIN1" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:221:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:439:1: warning: "bAIN0" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:227:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:466:1: warning: "bT2EX_" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:76:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:467:1: warning: "bCAP2_" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:77:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:472:1: warning: "bPWM1" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:214:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:473:1: warning: "bPWM2" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:252:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:572:1: warning: "bRST" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:75:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:599:1: warning: "bPWM1_PIN_X" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:270:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:603:1: warning: "bIO_INT_ACT" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:266:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:726:1: warning: "bPWM1_POLAR" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:376:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:729:1: warning: "bPWM1_OUT_EN" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:379:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:742:1: warning: "bPWM2_OUT_EN" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:378:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:1286:1: warning: "XDATA_RAM_SIZE" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:690:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:1321:1: warning: "DATA_FLASH_ADDR" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:726:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:1322:1: warning: "BOOT_LOAD_ADDR" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:727:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:1323:1: warning: "ROM_CFG_ADDR" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:728:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:1324:1: warning: "ROM_CHIP_ID_LO" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:730:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:1325:1: warning: "ROM_CHIP_ID_HI" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:731:1: error: this is the location of the previous definition
+./peripheral_lib/include/CH557X.H:311: error 0: Duplicate symbol 'GPIO_IE', symbol IGNORED
+./peripheral_lib/include/ch554.h:148: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:364: error 0: Duplicate symbol 'TXD_', symbol IGNORED
+./peripheral_lib/include/ch554.h:192: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:365: error 0: Duplicate symbol 'RXD_', symbol IGNORED
+./peripheral_lib/include/ch554.h:193: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:393: error 0: Duplicate symbol 'TXD1_', symbol IGNORED
+./peripheral_lib/include/ch554.h:239: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:394: error 0: Duplicate symbol 'RXD1_', symbol IGNORED
+./peripheral_lib/include/ch554.h:236: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:409: error 0: Duplicate symbol 'AIN3', symbol IGNORED
+./peripheral_lib/include/ch554.h:242: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:410: error 0: Duplicate symbol 'AIN2', symbol IGNORED
+./peripheral_lib/include/ch554.h:185: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:411: error 0: Duplicate symbol 'AIN1', symbol IGNORED
+./peripheral_lib/include/ch554.h:191: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:412: error 0: Duplicate symbol 'AIN0', symbol IGNORED
+./peripheral_lib/include/ch554.h:198: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:449: error 0: Duplicate symbol 'TXD1', symbol IGNORED
+./peripheral_lib/include/ch554.h:176: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:450: error 0: Duplicate symbol 'RXD1', symbol IGNORED
+./peripheral_lib/include/ch554.h:179: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:453: error 0: Duplicate symbol 'T2_', symbol IGNORED
+./peripheral_lib/include/ch554.h:186: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:454: error 0: Duplicate symbol 'CAP1_', symbol IGNORED
+./peripheral_lib/include/ch554.h:187: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:457: error 0: Duplicate symbol 'PWM1', symbol IGNORED
+./peripheral_lib/include/ch554.h:182: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:458: error 0: Duplicate symbol 'PWM2', symbol IGNORED
+./peripheral_lib/include/ch554.h:235: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:721: error 0: Duplicate symbol 'PWM_DATA2', symbol IGNORED
+./peripheral_lib/include/ch554.h:371: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:722: error 0: Duplicate symbol 'PWM_DATA1', symbol IGNORED
+./peripheral_lib/include/ch554.h:372: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:779: error 0: Duplicate symbol 'SCON1', symbol IGNORED
+./peripheral_lib/include/ch554.h:415: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:788: error 0: Duplicate symbol 'SBUF1', symbol IGNORED
+./peripheral_lib/include/ch554.h:423: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:789: error 0: Duplicate symbol 'SBAUD1', symbol IGNORED
+./peripheral_lib/include/ch554.h:424: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:810: error 0: Duplicate symbol 'ADC_CTRL', symbol IGNORED
+./peripheral_lib/include/ch554.h:427: error 177: previously defined here
+
+[2021-12-25 10:04:31]	compilation failed at : "e:\CanDelete\WCH_8051_projs\1-3-SDCC_Blink\Blink\examples\blink\main.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015af] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+In file included from .\examples\blink\main.c:4:
+./peripheral_lib/include/debug.h:16:20: fatal error: absacc.h: No such file or directory
+compilation terminated.
+
+[2021-12-25 10:05:52]	compilation failed at : "e:\CanDelete\WCH_8051_projs\1-3-SDCC_Blink\Blink\examples\blink\main.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015af] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+In file included from .\examples\blink\main.c:4:
+./peripheral_lib/include/debug.h:16:20: fatal error: absacc.h: No such file or directory
+compilation terminated.
+
+[2021-12-25 10:06:00]	compilation failed at : "e:\CanDelete\WCH_8051_projs\1-3-SDCC_Blink\Blink\examples\blink\main.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015af] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+In file included from .\examples\blink\main.c:4:
+./peripheral_lib/include/debug.h:19:21: fatal error: intrins.h: No such file or directory
+compilation terminated.
+
+[2021-12-25 10:06:04]	compilation failed at : "e:\CanDelete\WCH_8051_projs\1-3-SDCC_Blink\Blink\examples\blink\main.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015af] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:420:1: warning: "bTXD1_" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:256:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:421:1: warning: "bRXD1_" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:253:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:436:1: warning: "bAIN3" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:259:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:437:1: warning: "bAIN2" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:216:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:438:1: warning: "bAIN1" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:221:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:439:1: warning: "bAIN0" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:227:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:466:1: warning: "bT2EX_" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:76:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:467:1: warning: "bCAP2_" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:77:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:472:1: warning: "bPWM1" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:214:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:473:1: warning: "bPWM2" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:252:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:572:1: warning: "bRST" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:75:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:599:1: warning: "bPWM1_PIN_X" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:270:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:603:1: warning: "bIO_INT_ACT" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:266:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:726:1: warning: "bPWM1_POLAR" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:376:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:729:1: warning: "bPWM1_OUT_EN" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:379:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:742:1: warning: "bPWM2_OUT_EN" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:378:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:1286:1: warning: "XDATA_RAM_SIZE" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:690:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:1321:1: warning: "DATA_FLASH_ADDR" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:726:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:1322:1: warning: "BOOT_LOAD_ADDR" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:727:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:1323:1: warning: "ROM_CFG_ADDR" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:728:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:1324:1: warning: "ROM_CHIP_ID_LO" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:730:1: error: this is the location of the previous definition
+In file included from ./peripheral_lib/include/debug.h:20,
+                 from .\examples\blink\main.c:4:
+./peripheral_lib/include/CH557X.H:1325:1: warning: "ROM_CHIP_ID_HI" redefined
+In file included from .\examples\blink\main.c:3:
+./peripheral_lib/include/ch554.h:731:1: error: this is the location of the previous definition
+./peripheral_lib/include/CH557X.H:311: error 0: Duplicate symbol 'GPIO_IE', symbol IGNORED
+./peripheral_lib/include/ch554.h:148: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:364: error 0: Duplicate symbol 'TXD_', symbol IGNORED
+./peripheral_lib/include/ch554.h:192: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:365: error 0: Duplicate symbol 'RXD_', symbol IGNORED
+./peripheral_lib/include/ch554.h:193: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:393: error 0: Duplicate symbol 'TXD1_', symbol IGNORED
+./peripheral_lib/include/ch554.h:239: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:394: error 0: Duplicate symbol 'RXD1_', symbol IGNORED
+./peripheral_lib/include/ch554.h:236: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:409: error 0: Duplicate symbol 'AIN3', symbol IGNORED
+./peripheral_lib/include/ch554.h:242: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:410: error 0: Duplicate symbol 'AIN2', symbol IGNORED
+./peripheral_lib/include/ch554.h:185: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:411: error 0: Duplicate symbol 'AIN1', symbol IGNORED
+./peripheral_lib/include/ch554.h:191: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:412: error 0: Duplicate symbol 'AIN0', symbol IGNORED
+./peripheral_lib/include/ch554.h:198: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:449: error 0: Duplicate symbol 'TXD1', symbol IGNORED
+./peripheral_lib/include/ch554.h:176: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:450: error 0: Duplicate symbol 'RXD1', symbol IGNORED
+./peripheral_lib/include/ch554.h:179: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:453: error 0: Duplicate symbol 'T2_', symbol IGNORED
+./peripheral_lib/include/ch554.h:186: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:454: error 0: Duplicate symbol 'CAP1_', symbol IGNORED
+./peripheral_lib/include/ch554.h:187: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:457: error 0: Duplicate symbol 'PWM1', symbol IGNORED
+./peripheral_lib/include/ch554.h:182: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:458: error 0: Duplicate symbol 'PWM2', symbol IGNORED
+./peripheral_lib/include/ch554.h:235: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:721: error 0: Duplicate symbol 'PWM_DATA2', symbol IGNORED
+./peripheral_lib/include/ch554.h:371: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:722: error 0: Duplicate symbol 'PWM_DATA1', symbol IGNORED
+./peripheral_lib/include/ch554.h:372: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:779: error 0: Duplicate symbol 'SCON1', symbol IGNORED
+./peripheral_lib/include/ch554.h:415: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:788: error 0: Duplicate symbol 'SBUF1', symbol IGNORED
+./peripheral_lib/include/ch554.h:423: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:789: error 0: Duplicate symbol 'SBAUD1', symbol IGNORED
+./peripheral_lib/include/ch554.h:424: error 177: previously defined here
+./peripheral_lib/include/CH557X.H:810: error 0: Duplicate symbol 'ADC_CTRL', symbol IGNORED
+./peripheral_lib/include/ch554.h:427: error 177: previously defined here
+
+[2021-12-25 10:06:44]	compilation failed at : "e:\CanDelete\WCH_8051_projs\1-3-SDCC_Blink\Blink\examples\blink\main.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015af] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+.\examples\blink\main.c:3:19: fatal error: ch554.h: No such file or directory
+compilation terminated.
+.\examples\blink\main.c:1: warning 190: ISO C forbids an empty source file
+
+[2021-12-25 10:07:08]	compilation failed at : "e:\CanDelete\WCH_8051_projs\1-3-SDCC_Blink\Blink\peripheral_lib\source\debug.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015af] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+.\peripheral_lib\source\debug.c:149: error 20: Undefined identifier 'XBYTE'
+.\peripheral_lib\source\debug.c:149: error 22: Array or pointer required for '[]' operation
+
+[2021-12-25 10:08:56]	[done]
+	build successfully !
+
+[2021-12-25 10:09:31]	[done]
+	build successfully !
+
+[2021-12-25 10:10:27]	[done]
+	build successfully !
+
+[2021-12-25 10:15:27]	compilation failed at : "e:\CanDelete\WCH_8051_projs\1-3-SDCC_Blink\Blink\examples\blink\main.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015af] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+.\examples\blink\main.c:6: error 2: Initializer element is not a constant expression
+.\examples\blink\main.c:14: error 20: Undefined identifier 'LED_PIN'
+.\examples\blink\main.c:15: error 20: Undefined identifier 'LED_PIN'
+
+[2021-12-25 10:16:18]	compilation failed at : "e:\CanDelete\WCH_8051_projs\1-3-SDCC_Blink\Blink\examples\blink\main.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015af] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+In file included from .\examples\blink\main.c:4:
+./peripheral_lib/include/debug.h:31:1: warning: "FREQ_SYS" redefined
+<command line>:1:1: error: this is the location of the previous definition
+.\examples\blink\main.c:7: error 2: Initializer element is not a constant expression
+
+[2021-12-25 10:17:00]	compilation failed at : "e:\CanDelete\WCH_8051_projs\1-3-SDCC_Blink\Blink\examples\blink\main.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015af] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+In file included from .\examples\blink\main.c:4:
+./peripheral_lib/include/debug.h:31:1: warning: "FREQ_SYS" redefined
+<command line>:1:1: error: this is the location of the previous definition
+.\examples\blink\main.c:21: syntax error: token -> '=' ; column 15
+.\examples\blink\main.c:23: syntax error: token -> '}' ; column 1
+
+[2021-12-25 10:17:38]	compilation failed at : "e:\CanDelete\WCH_8051_projs\1-3-SDCC_Blink\Blink\examples\blink\main.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015af] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+In file included from .\examples\blink\main.c:4:
+./peripheral_lib/include/debug.h:31:1: warning: "FREQ_SYS" redefined
+<command line>:1:1: error: this is the location of the previous definition
+.\examples\blink\main.c:21: syntax error: token -> '=' ; column 15
+.\examples\blink\main.c:23: syntax error: token -> '}' ; column 1
+
+[2021-12-25 10:17:42]	compilation failed at : "e:\CanDelete\WCH_8051_projs\1-3-SDCC_Blink\Blink\examples\blink\main.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015af] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+In file included from .\examples\blink\main.c:4:
+./peripheral_lib/include/debug.h:31:1: warning: "FREQ_SYS" redefined
+<command line>:1:1: error: this is the location of the previous definition
+.\examples\blink\main.c:21: syntax error: token -> '=' ; column 15
+
+[2021-12-25 10:19:20]	[done]
+	build successfully !
+
+[2021-12-25 10:19:24]	[done]
+	build successfully !
+
+[2021-12-25 10:19:38]	[done]
+	build successfully !
+
+[2021-12-25 10:20:33]	[done]
+	build successfully !
+
+[2021-12-25 10:21:27]	[done]
+	build successfully !
+
+[2021-12-25 10:22:16]	[done]
+	build successfully !
+
+[2021-12-25 10:23:08]	[done]
+	build successfully !
+
+[2021-12-25 10:23:52]	[done]
+	build successfully !
+
+[2021-12-25 10:25:52]	[done]
+	build successfully !
+
+[2021-12-25 10:26:30]	[done]
+	build successfully !
+
+[2021-12-25 10:26:40]	[done]
+	build successfully !
+
+[2021-12-25 10:27:44]	[done]
+	build successfully !
+
+[2021-12-25 10:32:01]	[done]
+	build successfully !
+
+[2021-12-25 10:33:22]	[done]
+	build successfully !
+
+[2021-12-25 10:35:59]	[done]
+	build successfully !
+
+[2021-12-25 10:36:53]	[done]
+	build successfully !
+
+[2021-12-25 10:37:33]	[done]
+	build successfully !
+
+[2021-12-25 10:37:37]	[done]
+	build successfully !
+
+[2021-12-25 10:38:32]	[done]
+	build successfully !
+
+[2021-12-25 10:38:34]	[done]
+	build successfully !
+
+[2021-12-25 11:04:07]	compilation failed at : "e:\CanDelete\WCH_8051_projs\1-3-SDCC_Blink\Blink\examples\ws2812\main.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015af] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+In file included from .\examples\ws2812\main.c:6:
+./peripheral_lib/include/debug.h:31:1: warning: "FREQ_SYS" redefined
+<command line>:1:1: error: this is the location of the previous definition
+./peripheral_lib/include/ch557x.h:40: error 51: typedef/enum 'uint8_t' duplicate. Previous definition Ignored
+./peripheral_lib/include/ch557x.h:46: error 51: typedef/enum 'uint16_t' duplicate. Previous definition Ignored
+./peripheral_lib/include/ch557x.h:52: error 51: typedef/enum 'uint32_t' duplicate. Previous definition Ignored
+
+[2021-12-25 11:04:20]	compilation failed at : "e:\CanDelete\WCH_8051_projs\1-3-SDCC_Blink\Blink\examples\ws2812\main.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015af] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+In file included from .\examples\ws2812\main.c:6:
+./peripheral_lib/include/debug.h:31:1: warning: "FREQ_SYS" redefined
+<command line>:1:1: error: this is the location of the previous definition
+./peripheral_lib/include/ch557x.h:40: error 51: typedef/enum 'uint8_t' duplicate. Previous definition Ignored
+./peripheral_lib/include/ch557x.h:46: error 51: typedef/enum 'uint16_t' duplicate. Previous definition Ignored
+./peripheral_lib/include/ch557x.h:52: error 51: typedef/enum 'uint32_t' duplicate. Previous definition Ignored
+
+[2021-12-25 11:05:11]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01752] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+?ASlink-Warning-Undefined Global '_bitbangSetup' referenced by module 'main'
+?ASlink-Warning-Undefined Global '_bitbangWs2812' referenced by module 'main'
+?ASlink-Warning-Undefined Global '_bitbangWs2812_PARM_2' referenced by module 'main'
+
+
+[2021-12-25 11:05:14]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01752] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+?ASlink-Warning-Undefined Global '_bitbangSetup' referenced by module 'main'
+?ASlink-Warning-Undefined Global '_bitbangWs2812' referenced by module 'main'
+?ASlink-Warning-Undefined Global '_bitbangWs2812_PARM_2' referenced by module 'main'
+
+
+[2021-12-25 11:05:40]	compilation failed at : "e:\CanDelete\WCH_8051_projs\1-3-SDCC_Blink\Blink\examples\ws2812\bitbang.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015af] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+.\examples\ws2812\bitbang.c:3:33: fatal error: ../../include/ch554.h: No such file or directory
+compilation terminated.
+
+[2021-12-25 11:06:12]	[done]
+	build successfully !
+
+[2021-12-25 11:06:19]	[done]
+	build successfully !
+
+[2021-12-25 11:06:59]	[done]
+	build successfully !
+
+[2021-12-25 11:10:19]	[done]
+	build successfully !
+
+[2021-12-25 11:13:40]	[done]
+	build successfully !
+
+[2021-12-25 11:13:43]	[done]
+	build successfully !
+
+[2021-12-25 11:14:43]	[done]
+	build successfully !
+
+[2021-12-25 11:14:46]	[done]
+	build successfully !
+
+[2021-12-25 11:18:21]	[done]
+	build successfully !
+
+[2021-12-25 11:21:09]	[done]
+	build successfully !
+
+[2021-12-25 11:21:37]	[done]
+	build successfully !
+
+[2021-12-25 11:21:40]	[done]
+	build successfully !
+
+[2021-12-25 11:22:04]	[done]
+	build successfully !
+
+[2021-12-25 12:23:15]	[done]
+	build successfully !
+
+[2021-12-25 12:23:22]	[done]
+	build successfully !
+
+[2021-12-25 12:26:46]	[done]
+	build successfully !
+
+[2021-12-25 13:42:13]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01752] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+?ASlink-Warning-Undefined Global '_i2c_read_ack' referenced by module 'main'
+?ASlink-Warning-Undefined Global '_i2c_write' referenced by module 'main'
+?ASlink-Warning-Undefined Global '_i2c_start' referenced by module 'main'
+?ASlink-Warning-Undefined Global '_i2c_init' referenced by module 'main'
+
+
+[2021-12-25 13:42:18]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01752] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+?ASlink-Warning-Undefined Global '_i2c_read_ack' referenced by module 'main'
+?ASlink-Warning-Undefined Global '_i2c_write' referenced by module 'main'
+?ASlink-Warning-Undefined Global '_i2c_start' referenced by module 'main'
+?ASlink-Warning-Undefined Global '_i2c_init' referenced by module 'main'
+
+
+[2021-12-25 13:42:33]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01752] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+?ASlink-Warning-Undefined Global '_i2c_read_ack' referenced by module 'main'
+?ASlink-Warning-Undefined Global '_i2c_write' referenced by module 'main'
+?ASlink-Warning-Undefined Global '_i2c_start' referenced by module 'main'
+?ASlink-Warning-Undefined Global '_i2c_init' referenced by module 'main'
+
+
+[2021-12-25 13:42:57]	[done]
+	build successfully !
+
+[2021-12-25 13:44:05]	[done]
+	build successfully !
+
+[2021-12-25 13:44:08]	[done]
+	build successfully !
+
+[2021-12-25 14:06:41]	Not found 'main.rel' object file in output list, the 'main.rel' object file must be the first object file !
+  at unify_builder.CmdGenerator.genLinkCommand (System.Collections.Generic.List`1[T] objList, System.Boolean onlyCmd) [0x00282] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x0167d] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+
+[2021-12-25 14:07:12]	compilation failed at : "e:\CanDelete\WCH_8051_projs\1-3-SDCC_Blink\Blink\User_examples\1-1-IIC驱动SSD1306\Src\SSD1306.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015af] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+.\User_examples\1-1-IIC驱动SSD1306\Src\SSD1306.c:30: warning 112: function 'Delay_us' implicit declaration
+.\User_examples\1-1-IIC驱动SSD1306\Src\SSD1306.c:31: warning 112: function 'Delay_us' implicit declaration
+.\User_examples\1-1-IIC驱动SSD1306\Src\SSD1306.c:32: warning 112: function 'Delay_us' implicit declaration
+.\User_examples\1-1-IIC驱动SSD1306\Src\SSD1306.c:33: warning 112: function 'Delay_us' implicit declaration
+.\User_examples\1-1-IIC驱动SSD1306\Src\SSD1306.c:30: error 101: too many parameters 
+.\User_examples\1-1-IIC驱动SSD1306\Src\SSD1306.c:31: error 101: too many parameters 
+.\User_examples\1-1-IIC驱动SSD1306\Src\SSD1306.c:32: error 101: too many parameters 
+.\User_examples\1-1-IIC驱动SSD1306\Src\SSD1306.c:33: error 101: too many parameters 
+.\User_examples\1-1-IIC驱动SSD1306\Src\SSD1306.c:43: warning 112: function 'Delay_us' implicit declaration
+.\User_examples\1-1-IIC驱动SSD1306\Src\SSD1306.c:44: warning 112: function 'Delay_us' implicit declaration
+.\User_examples\1-1-IIC驱动SSD1306\Src\SSD1306.c:43: error 101: too many parameters 
+.\User_examples\1-1-IIC驱动SSD1306\Src\SSD1306.c:44: error 101: too many parameters 
+.\User_examples\1-1-IIC驱动SSD1306\Src\SSD1306.c:59: warning 112: function 'Delay_us' implicit declaration
+.\User_examples\1-1-IIC驱动SSD1306\Src\SSD1306.c:63: warning 112: function 'Delay_us' implicit declaration
+.\User_examples\1-1-IIC驱动SSD1306\Src\SSD1306.c:59: error 101: too many parameters 
+.\User_examples\1-1-IIC驱动SSD1306\Src\SSD1306.c:63: error 101: too many parameters
+
+[2021-12-25 14:08:30]	compilation failed at : "e:\CanDelete\WCH_8051_projs\1-3-SDCC_Blink\Blink\User_examples\1-1-IIC驱动SSD1306\Src\SSD1306.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015af] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+In file included from .\User_examples\1-1-IIC驱动SSD1306\Src\SSD1306.c:2:
+./peripheral_lib/include/debug.h:31:1: warning: "FREQ_SYS" redefined
+<command line>:1:1: error: this is the location of the previous definition
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:7: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:8: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:10: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:11: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:13: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:14: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:16: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:17: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:19: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:20: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:22: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:23: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:25: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:26: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:28: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:29: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:31: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:32: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:34: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:35: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:37: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:38: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:40: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:41: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:43: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:44: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:46: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:47: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:49: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:50: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:52: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:53: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:55: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:56: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:58: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:59: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:61: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:62: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:64: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:65: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:67: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:68: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:70: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:71: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:73: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:74: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:76: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:77: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:79: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:80: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:82: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:83: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:85: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:86: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:88: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:89: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:91: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:92: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:94: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:95: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:97: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:98: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:100: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:101: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:103: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:104: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:106: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:107: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:109: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:110: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:112: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:113: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:115: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:116: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:118: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:119: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:121: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:122: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:124: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:125: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:127: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:128: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:130: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:131: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:133: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:134: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:136: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:137: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:139: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:140: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:142: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:143: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:145: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:146: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:148: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:149: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:151: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:152: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:154: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:155: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:157: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:158: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:160: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:161: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:163: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:164: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:166: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:167: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:169: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:170: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:172: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:173: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:175: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:176: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:178: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:179: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:181: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:182: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:184: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:185: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:187: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:188: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:190: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:191: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:193: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:194: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:196: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:197: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:199: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:200: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:202: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:203: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:205: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:206: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:208: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:209: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:211: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:212: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:214: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:215: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:217: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:218: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:220: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:221: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:223: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:224: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:226: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:227: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:229: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:230: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:232: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:233: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:235: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:236: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:238: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:239: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:241: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:242: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:244: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:245: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:247: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:248: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:250: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:251: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:253: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:254: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:256: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:257: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:259: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:260: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:262: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:263: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:265: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:266: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:268: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:269: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:271: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:272: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:274: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:275: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:277: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:278: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:280: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:281: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:283: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:284: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:286: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:287: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:289: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+.\User_examples\1-1-IIC驱动SSD1306\Src\/../Inc/OLED_Font.h:290: error 69: struct/union/array 'OLED_F8x16': initialization needs curly braces
+
+[2021-12-25 14:12:25]	[done]
+	build successfully !
+
+[2021-12-25 14:12:28]	[done]
+	build successfully !
+
+[2021-12-25 14:15:56]	[done]
+	build successfully !
+
+[2021-12-25 14:19:22]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01752] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+?ASlink-Error-Could not get 46 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-25 14:19:32]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01752] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+?ASlink-Error-Could not get 46 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-25 14:20:33]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01752] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+?ASlink-Error-Could not get 46 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-25 14:22:17]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01752] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+?ASlink-Error-Could not get 46 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-25 14:23:52]	[done]
+	build successfully !
+
+[2021-12-25 14:26:52]	[done]
+	build successfully !
+
+[2021-12-25 14:26:57]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01752] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+?ASlink-Error-Could not get 46 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-25 14:27:01]	[done]
+	build successfully !
+
+[2021-12-25 14:28:21]	[done]
+	build successfully !
+
+[2021-12-25 14:28:28]	[done]
+	build successfully !
+
+[2021-12-25 14:30:48]	[done]
+	build successfully !
+
+[2021-12-25 14:30:50]	[done]
+	build successfully !
+
+[2021-12-25 14:31:52]	[done]
+	build successfully !
+
+[2021-12-25 14:38:47]	[done]
+	build successfully !
+
+[2021-12-25 14:38:51]	[done]
+	build successfully !
+
+[2021-12-25 14:39:07]	[done]
+	build successfully !
+
+[2021-12-25 14:41:52]	[done]
+	build successfully !
+
+[2021-12-25 14:41:58]	[done]
+	build successfully !
+
+[2021-12-25 16:18:25]	[done]
+	build successfully !
+
+[2021-12-25 16:18:39]	[done]
+	build successfully !
+
+[2021-12-25 16:19:51]	[done]
+	build successfully !
+

@@ -1,0 +1,15 @@
+[2021/12/25 9:52:57 GMT+0800] : launched
+[Hidden] : Failed to connect 'api-github.em-ide.com/repos/github0null/eide-resource/contents/eide-template-list'
+Error: Failed to connect 'api-github.em-ide.com/repos/github0null/eide-resource/contents/eide-template-list'
+	at connResetException (internal/errors.js:607:14)
+	at TLSSocket.socketCloseListener (_http_client.js:443:25)
+	at TLSSocket.emit (events.js:327:22)
+	at TLSSocket.EventEmitter.emit (domain.js:467:12)
+	at net.js:673:12
+	at TCP.done (_tls_wrap.js:563:7)
+
+
+[2021/12/25 16:18:13 GMT+0800] : launched
+
+
+[2021/12/25 16:19:43 GMT+0800] : launched
