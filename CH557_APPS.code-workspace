@@ -19,7 +19,10 @@
             "ssd1306.h": "c",
             "stdio.h": "c",
             "st7735s.h": "c",
-            "st7789.h": "c"
+            "st7789.h": "c",
+            "st7735s_gui.h": "c",
+            "st7735s_test.h": "c",
+            "gluttonous_snake.h": "c"
         },
         "C_Cpp.default.intelliSenseMode": "gcc-arm",
         "C_Cpp.default.browse.databaseFilename": "./.vscode/cpptools/browse.vc.db",

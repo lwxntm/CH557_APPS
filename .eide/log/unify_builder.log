@@ -1471,3 +1471,904 @@ from type 'void function ( int fixed) fixed'
 [2021-12-26 00:16:08]	[done]
 	build successfully !
 
+[2021-12-26 01:00:28]	[done]
+	build successfully !
+
+[2021-12-26 10:10:29]	[done]
+	build successfully !
+
+[2021-12-26 10:12:04]	[done]
+	build successfully !
+
+[2021-12-26 10:27:38]	[done]
+	build successfully !
+
+[2021-12-26 10:29:00]	[done]
+	build successfully !
+
+[2021-12-26 10:31:45]	[done]
+	build successfully !
+
+[2021-12-26 10:42:50]	[done]
+	build successfully !
+
+[2021-12-26 10:44:34]	[done]
+	build successfully !
+
+[2021-12-26 10:47:35]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-2-硬件SPI驱动ST7735s\Src\main.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+.\User_examples\2-2-硬件SPI驱动ST7735s\Src\main.c:14: warning 112: function 'SPI_WriteWS2812_Byte' implicit declaration
+.\User_examples\2-2-硬件SPI驱动ST7735s\Src\main.c:14: error 101: too many parameters
+
+[2021-12-26 10:48:07]	[done]
+	build successfully !
+
+[2021-12-26 10:50:16]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-2-硬件SPI驱动ST7735s\Src\main.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+.\User_examples\2-2-硬件SPI驱动ST7735s\Src\main.c:24: syntax error: token -> '}' ; column 5
+
+[2021-12-26 10:50:40]	[done]
+	build successfully !
+
+[2021-12-26 10:51:51]	[done]
+	build successfully !
+
+[2021-12-26 10:58:12]	[done]
+	build successfully !
+
+[2021-12-26 10:58:58]	[done]
+	build successfully !
+
+[2021-12-26 10:59:56]	[done]
+	build successfully !
+
+[2021-12-26 11:03:17]	[done]
+	build successfully !
+
+[2021-12-26 11:09:22]	[done]
+	build successfully !
+
+[2021-12-26 11:13:40]	[done]
+	build successfully !
+
+[2021-12-26 11:14:15]	[done]
+	build successfully !
+
+[2021-12-26 11:14:39]	[done]
+	build successfully !
+
+[2021-12-26 11:15:15]	[done]
+	build successfully !
+
+[2021-12-26 11:15:32]	[done]
+	build successfully !
+
+[2021-12-26 11:15:48]	[done]
+	build successfully !
+
+[2021-12-26 11:18:46]	[done]
+	build successfully !
+
+[2021-12-26 12:10:22]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\Gluttonous_Snake.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\Gluttonous_Snake.c:14: warning 112: function 'lcd_initial' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\Gluttonous_Snake.c:15: warning 112: function 'dsp_single_colour' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\Gluttonous_Snake.c:16: warning 112: function 'Display_Desc' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\Gluttonous_Snake.c:15: error 101: too many parameters
+
+[2021-12-26 12:10:36]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0177c] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+?ASlink-Warning-Undefined Global '_LCD_Init' referenced by module 'main'
+?ASlink-Warning-Undefined Global '_LCD_Clear' referenced by module 'main'
+
+
+[2021-12-26 12:11:13]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0177c] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+?ASlink-Warning-Undefined Global '_LCD_Init' referenced by module 'main'
+?ASlink-Warning-Undefined Global '_LCD_Clear' referenced by module 'main'
+
+
+[2021-12-26 21:12:53]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s.c:303: warning 112: function 'LCD_direction' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s.c:303: error 101: too many parameters
+
+[2021-12-26 21:13:40]	[done]
+	build successfully !
+
+[2021-12-26 21:13:48]	[done]
+	build successfully !
+
+[2021-12-26 21:15:24]	[done]
+	build successfully !
+
+[2021-12-26 21:16:51]	[done]
+	build successfully !
+
+[2021-12-26 21:17:21]	[done]
+	build successfully !
+
+[2021-12-26 21:21:31]	[done]
+	build successfully !
+
+[2021-12-26 21:21:46]	[done]
+	build successfully !
+
+[2021-12-26 21:22:06]	[done]
+	build successfully !
+
+[2021-12-26 21:33:02]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\/../Inc/st7735s_096_pic.h:58: error 1: Syntax error, declaration ignored at 'code'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:65: syntax error: token -> '{' ; column 1
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:67: error 7: Old style C declaration. IGNORED 'gImage_qq'
+sdcpp.exe: fatal error: when writing output to : Invalid argument
+
+[2021-12-26 21:33:13]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:139: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:140: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:139: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:140: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:172: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:173: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:172: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:173: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:187: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:189: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:191: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:193: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:187: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:189: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:191: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:193: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:228: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:242: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:228: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:242: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:274: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:285: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:274: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:285: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:310: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:328: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:340: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:310: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:328: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:340: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:376: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:390: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:376: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:390: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:414: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:428: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:436: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:414: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:428: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:436: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:477: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:477: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:497: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:497: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:520: warning 112: function 'Convert_Pos' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:536: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:540: warning 112: function 'TP_Draw_Big_Point' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:542: warning 112: function 'delay_ms' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:522: error 20: Undefined identifier 'tp_pixlcd'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:522: error 25: Structure/Union expected left of '.->'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:524: error 20: Undefined identifier 'tp_pixlcd'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:524: error 25: Structure/Union expected left of '.->'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:531: error 20: Undefined identifier 'tp_pixlcd'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:531: error 25: Structure/Union expected left of '.->'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:536: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:540: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:542: error 101: too many parameters
+
+[2021-12-26 21:34:07]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:492: warning 196: pointer target lost const qualifier
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:522: warning 112: function 'Convert_Pos' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:542: warning 112: function 'TP_Draw_Big_Point' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:524: error 20: Undefined identifier 'tp_pixlcd'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:524: error 25: Structure/Union expected left of '.->'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:526: error 20: Undefined identifier 'tp_pixlcd'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:526: error 25: Structure/Union expected left of '.->'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:533: error 20: Undefined identifier 'tp_pixlcd'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:533: error 25: Structure/Union expected left of '.->'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:542: error 101: too many parameters
+
+[2021-12-26 21:34:54]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:492: warning 196: pointer target lost const qualifier
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:522: warning 112: function 'Convert_Pos' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:542: warning 112: function 'TP_Draw_Big_Point' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:524: error 20: Undefined identifier 'tp_pixlcd'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:524: error 25: Structure/Union expected left of '.->'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:526: error 20: Undefined identifier 'tp_pixlcd'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:526: error 25: Structure/Union expected left of '.->'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:533: error 20: Undefined identifier 'tp_pixlcd'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:533: error 25: Structure/Union expected left of '.->'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\ST7735s_test.c:542: error 101: too many parameters
+
+[2021-12-26 21:35:58]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_096_font.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_096_font.c:1:23: fatal error: font\font.h: No such file or directory
+compilation terminated.
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_096_font.c:1: warning 190: ISO C forbids an empty source file
+
+[2021-12-26 21:36:23]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:46:17: fatal error: lcd.h: No such file or directory
+compilation terminated.
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:1: warning 190: ISO C forbids an empty source file
+
+[2021-12-26 21:37:02]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\/../Inc/st7735s_096_font.h:10: error 1: Syntax error, declaration ignored at 'code'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\/../Inc/st7735s_096_font.h:115: syntax error: token -> 'code' ; column 4
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\/../Inc/st7735s_096_font.h:211: error 7: Old style C declaration. IGNORED 'asc2_1206'
+sdcpp.exe: fatal error: when writing output to : Invalid argument
+
+[2021-12-26 21:37:12]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\/../Inc/st7735s_096_font.h:115: error 1: Syntax error, declaration ignored at 'code'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\/../Inc/st7735s_096_font.h:220: syntax error: token -> 'code' ; column 4
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\/../Inc/st7735s_096_font.h:350: error 7: Old style C declaration. IGNORED 'asc2_1608'
+sdcpp.exe: fatal error: when writing output to : Invalid argument
+
+[2021-12-26 21:37:20]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\/../Inc/st7735s_096_font.h:220: error 1: Syntax error, declaration ignored at 'code'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\/../Inc/st7735s_096_font.h:359: syntax error: token -> 'code' ; column 4
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\/../Inc/st7735s_096_font.h:396: error 7: Old style C declaration. IGNORED 'tfont16'
+sdcpp.exe: fatal error: when writing output to : Invalid argument
+
+[2021-12-26 21:38:05]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\/../Inc/st7735s_096_font.h:359: error 1: Syntax error, declaration ignored at 'code'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\/../Inc/st7735s_096_font.h:405: syntax error: token -> 'code' ; column 4
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\/../Inc/st7735s_096_font.h:439: error 7: Old style C declaration. IGNORED 'tfont24'
+sdcpp.exe: fatal error: when writing output to : Invalid argument
+
+[2021-12-26 21:38:12]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\/../Inc/st7735s_096_font.h:405: error 1: Syntax error, declaration ignored at 'code'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:62: syntax error: token -> '{' ; column 1
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:63: error 7: Old style C declaration. IGNORED 'tfont32'
+sdcpp.exe: fatal error: when writing output to : Invalid argument
+
+[2021-12-26 21:38:19]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:63: warning 112: function 'LCD_SetCursor' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:64: warning 112: function 'LCD_WR_DATA_16Bit' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:63: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:64: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:64: warning 85: in function GUI_DrawPoint unreferenced function argument : 'x'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:64: warning 85: in function GUI_DrawPoint unreferenced function argument : 'y'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:64: warning 85: in function GUI_DrawPoint unreferenced function argument : 'color'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:87: warning 112: function 'LCD_WR_DATA_16Bit' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:87: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:89: warning 85: in function LCD_Fill unreferenced local variable : 'j'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:89: warning 85: in function LCD_Fill unreferenced function argument : 'color'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:122: warning 112: function 'LCD_DrawPoint' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:122: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:405: warning 112: function 'LCD_WR_DATA_16Bit' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:406: warning 112: function 'LCD_WR_DATA_16Bit' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:421: warning 112: function 'LCD_DrawPoint' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:405: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:406: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:421: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:427: warning 85: in function LCD_ShowChar unreferenced function argument : 'bc'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:530: warning 112: function 'LCD_WR_DATA_16Bit' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:531: warning 112: function 'LCD_WR_DATA_16Bit' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:536: warning 112: function 'LCD_DrawPoint' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:530: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:531: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:536: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:555: warning 85: in function GUI_DrawFont16 unreferenced function argument : 'bc'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:588: warning 112: function 'LCD_WR_DATA_16Bit' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:589: warning 112: function 'LCD_WR_DATA_16Bit' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:594: warning 112: function 'LCD_DrawPoint' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:588: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:589: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:594: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:611: warning 85: in function GUI_DrawFont24 unreferenced function argument : 'bc'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:643: warning 112: function 'LCD_WR_DATA_16Bit' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:644: warning 112: function 'LCD_WR_DATA_16Bit' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:649: warning 112: function 'LCD_DrawPoint' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:643: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:644: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:649: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:666: warning 85: in function GUI_DrawFont32 unreferenced function argument : 'bc'
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:773: warning 112: function 'LCD_WR_DATA_16Bit' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:773: error 101: too many parameters
+
+[2021-12-26 21:39:21]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:122: warning 112: function 'LCD_DrawPoint' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:122: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:421: warning 112: function 'LCD_DrawPoint' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:421: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:536: warning 112: function 'LCD_DrawPoint' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:536: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:594: warning 112: function 'LCD_DrawPoint' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:594: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:649: warning 112: function 'LCD_DrawPoint' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c:649: error 101: too many parameters
+
+[2021-12-26 21:39:43]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\st7735s_gui.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x015d9] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\/../Inc/st7735s_096_font.h:220: error 69: struct/union/array 'tfont16': initialization needs curly braces
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\/../Inc/st7735s_096_font.h:359: error 69: struct/union/array 'tfont24': initialization needs curly braces
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\/../Inc/st7735s_096_font.h:405: error 69: struct/union/array 'tfont32': initialization needs curly braces
+
+[2021-12-26 21:48:23]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0177c] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+?ASlink-Error-Could not get 38 consecutive bytes in internal RAM for area DSEG.
+?ASlink-Error-Could not get 328 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-26 21:52:38]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0177c] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+?ASlink-Error-Could not get 38 consecutive bytes in internal RAM for area DSEG.
+?ASlink-Error-Could not get 328 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-26 21:52:43]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0177c] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+?ASlink-Error-Could not get 38 consecutive bytes in internal RAM for area DSEG.
+?ASlink-Error-Could not get 328 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-26 21:58:09]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0177c] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-large" in module "main" and
+   "-mmcs51 --model-small" in module "_modulong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-large" in module "main" and
+   "-mmcs51 --model-small" in module "_divulong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-large" in module "main" and
+   "-mmcs51 --model-small" in module "_gptrput".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-large" in module "main" and
+   "-mmcs51 --model-small" in module "_mulint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-large" in module "main" and
+   "-mmcs51 --model-small" in module "_mullong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-large" in module "main" and
+   "-mmcs51 --model-small" in module "_divuint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-large" in module "main" and
+   "-mmcs51 --model-small" in module "_divslong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-large" in module "main" and
+   "-mmcs51 --model-small" in module "_strlen".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-large" in module "main" and
+   "-mmcs51 --model-small" in module "_gptrget".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-large" in module "main" and
+   "-mmcs51 --model-small" in module "_divsint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-large" in module "main" and
+   "-mmcs51 --model-small" in module "_startup".
+?ASlink-Error-Could not get 214 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-26 21:58:35]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0177c] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-large" in module "main" and
+   "-mmcs51 --model-small" in module "_modulong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-large" in module "main" and
+   "-mmcs51 --model-small" in module "_divulong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-large" in module "main" and
+   "-mmcs51 --model-small" in module "_gptrput".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-large" in module "main" and
+   "-mmcs51 --model-small" in module "_mulint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-large" in module "main" and
+   "-mmcs51 --model-small" in module "_mullong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-large" in module "main" and
+   "-mmcs51 --model-small" in module "_divuint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-large" in module "main" and
+   "-mmcs51 --model-small" in module "_divslong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-large" in module "main" and
+   "-mmcs51 --model-small" in module "_strlen".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-large" in module "main" and
+   "-mmcs51 --model-small" in module "_gptrget".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-large" in module "main" and
+   "-mmcs51 --model-small" in module "_divsint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-large" in module "main" and
+   "-mmcs51 --model-small" in module "_startup".
+?ASlink-Error-Could not get 214 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-26 21:58:52]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0177c] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_modulong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divulong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_gptrput".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_mulint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_mullong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divuint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divslong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_strlen".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_gptrget".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divsint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_startup".
+?ASlink-Warning-Paged Area PSEG Length Error
+?ASlink-Warning-Paged Area PSEG Boundary Error
+
+
+[2021-12-26 22:01:35]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0177c] in <1a6542a3afb24227bcc008420103c187>:0 
+---
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_modulong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divulong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_gptrput".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_mulint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_mullong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divuint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divslong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_strlen".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_gptrget".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divsint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_startup".
+?ASlink-Warning-Paged Area PSEG Length Error
+?ASlink-Warning-Paged Area PSEG Boundary Error
+
+
+[2021-12-26 22:07:58]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x017a6] in <8a414aa691234a75ab094dbffcdc2db6>:0 
+---
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_modulong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divulong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_gptrput".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_mulint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_mullong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divuint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divslong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_strlen".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_gptrget".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divsint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_startup".
+?ASlink-Warning-Paged Area PSEG Length Error
+?ASlink-Warning-Paged Area PSEG Boundary Error
+
+
+[2021-12-26 22:08:09]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x017a6] in <8a414aa691234a75ab094dbffcdc2db6>:0 
+---
+?ASlink-Error-Could not get 38 consecutive bytes in internal RAM for area DSEG.
+?ASlink-Error-Could not get 328 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-26 22:08:39]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x017a6] in <8a414aa691234a75ab094dbffcdc2db6>:0 
+---
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_modulong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divulong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_gptrput".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_mulint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_mullong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divuint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divslong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_strlen".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_gptrget".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divsint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_startup".
+?ASlink-Warning-Paged Area PSEG Length Error
+?ASlink-Warning-Paged Area PSEG Boundary Error
+
+
+[2021-12-26 22:09:45]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x017a6] in <8a414aa691234a75ab094dbffcdc2db6>:0 
+---
+?ASlink-Warning-Paged Area PSEG Length Error
+?ASlink-Warning-Paged Area PSEG Boundary Error
+
+
+[2021-12-26 22:09:54]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x017a6] in <8a414aa691234a75ab094dbffcdc2db6>:0 
+---
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_modulong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divulong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_gptrput".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_mulint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_mullong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divuint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divslong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_strlen".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_gptrget".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divsint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_startup".
+?ASlink-Warning-Paged Area PSEG Length Error
+?ASlink-Warning-Paged Area PSEG Boundary Error
+
+
+[2021-12-26 22:10:00]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x017a6] in <8a414aa691234a75ab094dbffcdc2db6>:0 
+---
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_modulong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divulong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_gptrput".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_mulint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_mullong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divuint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divslong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_strlen".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_gptrget".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_divsint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-medium" in module "main" and
+   "-mmcs51 --model-small" in module "_startup".
+?ASlink-Warning-Paged Area PSEG Length Error
+?ASlink-Warning-Paged Area PSEG Boundary Error
+
+
+[2021-12-26 22:13:46]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x017a6] in <8a414aa691234a75ab094dbffcdc2db6>:0 
+---
+?ASlink-Warning-Paged Area PSEG Length Error
+?ASlink-Warning-Paged Area PSEG Boundary Error
+
+
+[2021-12-26 22:15:21]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x017a6] in <8a414aa691234a75ab094dbffcdc2db6>:0 
+---
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-small" in module "main" and
+   "-mmcs51 --model-medium" in module "_modulong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-small" in module "main" and
+   "-mmcs51 --model-medium" in module "_divslong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-small" in module "main" and
+   "-mmcs51 --model-medium" in module "_divulong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-small" in module "main" and
+   "-mmcs51 --model-medium" in module "_gptrput".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-small" in module "main" and
+   "-mmcs51 --model-medium" in module "_mulint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-small" in module "main" and
+   "-mmcs51 --model-medium" in module "_mullong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-small" in module "main" and
+   "-mmcs51 --model-medium" in module "_divsint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-small" in module "main" and
+   "-mmcs51 --model-medium" in module "_divuint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-small" in module "main" and
+   "-mmcs51 --model-medium" in module "_strlen".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-small" in module "main" and
+   "-mmcs51 --model-medium" in module "_gptrget".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-small" in module "main" and
+   "-mmcs51 --model-medium" in module "_startup".
+?ASlink-Error-Could not get 38 consecutive bytes in internal RAM for area DSEG.
+?ASlink-Error-Could not get 328 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-26 22:15:42]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x017a6] in <8a414aa691234a75ab094dbffcdc2db6>:0 
+---
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-small" in module "main" and
+   "-mmcs51 --model-large" in module "_modulong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-small" in module "main" and
+   "-mmcs51 --model-large" in module "_divslong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-small" in module "main" and
+   "-mmcs51 --model-large" in module "_divulong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-small" in module "main" and
+   "-mmcs51 --model-large" in module "_gptrput".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-small" in module "main" and
+   "-mmcs51 --model-large" in module "_mulint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-small" in module "main" and
+   "-mmcs51 --model-large" in module "_mullong".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-small" in module "main" and
+   "-mmcs51 --model-large" in module "_divsint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-small" in module "main" and
+   "-mmcs51 --model-large" in module "_divuint".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-small" in module "main" and
+   "-mmcs51 --model-large" in module "_strlen".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-small" in module "main" and
+   "-mmcs51 --model-large" in module "_gptrget".
+?ASlink-Warning-Conflicting sdcc options:
+   "-mmcs51 --model-small" in module "main" and
+   "-mmcs51 --model-large" in module "_startup".
+?ASlink-Error-Could not get 38 consecutive bytes in internal RAM for area DSEG.
+?ASlink-Error-Could not get 328 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-26 22:15:50]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x017a6] in <8a414aa691234a75ab094dbffcdc2db6>:0 
+---
+?ASlink-Error-Could not get 214 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-26 22:16:08]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x017a6] in <8a414aa691234a75ab094dbffcdc2db6>:0 
+---
+?ASlink-Error-Could not get 214 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-26 22:16:23]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x017a6] in <8a414aa691234a75ab094dbffcdc2db6>:0 
+---
+?ASlink-Error-Could not get 214 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-26 22:16:56]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x017a6] in <8a414aa691234a75ab094dbffcdc2db6>:0 
+---
+?ASlink-Error-Could not get 214 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-26 22:17:51]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x017a6] in <8a414aa691234a75ab094dbffcdc2db6>:0 
+---
+?ASlink-Error-Could not get 214 consecutive bytes in internal RAM for area DSEG.
+
+
+[2021-12-26 22:19:17]	[done]
+	build successfully !
+
+[2021-12-26 22:57:52]	[done]
+	build successfully !
+
+[2021-12-26 22:57:59]	[done]
+	build successfully !
+
+[2021-12-26 23:00:00]	[done]
+	build successfully !
+
+[2021-12-26 23:04:26]	[done]
+	build successfully !
+
+[2021-12-26 23:07:52]	[done]
+	build successfully !
+
+[2021-12-26 23:08:16]	[done]
+	build successfully !
+
+[2021-12-26 23:09:02]	[done]
+	build successfully !
+
+[2021-12-26 23:10:16]	[done]
+	build successfully !
+
+[2021-12-26 23:10:27]	[done]
+	build successfully !
+
+[2021-12-26 23:10:36]	[done]
+	build successfully !
+
+[2021-12-26 23:10:55]	[done]
+	build successfully !
+
+[2021-12-26 23:12:03]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\Gluttonous_Snake.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01603] in <8a414aa691234a75ab094dbffcdc2db6>:0 
+---
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\Gluttonous_Snake.c:15: warning 112: function 'LCD_Fill' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\Gluttonous_Snake.c:15: error 101: too many parameters
+
+[2021-12-26 23:12:10]	compilation failed at : "e:\CanDelete\WCH_8051_projs\CH557_APPS\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\main.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01603] in <8a414aa691234a75ab094dbffcdc2db6>:0 
+---
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\main.c:16: warning 112: function 'LCD_Fill' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\main.c:18: warning 112: function 'LCD_Fill' implicit declaration
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\main.c:16: error 101: too many parameters 
+.\User_examples\2-4-ST7735+五向按键做一个贪吃蛇\Src\main.c:18: error 101: too many parameters
+
+[2021-12-26 23:12:20]	[done]
+	build successfully !
+
+[2021-12-26 23:12:28]	[done]
+	build successfully !
+
+[2021-12-26 23:13:04]	[done]
+	build successfully !
+
+[2021-12-26 23:14:26]	[done]
+	build successfully !
+
+[2021-12-26 23:16:00]	[done]
+	build successfully !
+
+[2021-12-26 23:16:12]	[done]
+	build successfully !
+
+[2021-12-26 23:21:51]	[done]
+	build successfully !
+
+[2021-12-26 23:33:49]	[done]
+	build successfully !
+
+[2021-12-26 23:34:22]	[done]
+	build successfully !
+
+[2021-12-26 23:43:20]	[done]
+	build successfully !
+

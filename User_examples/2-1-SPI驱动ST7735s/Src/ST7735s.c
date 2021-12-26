@@ -45,11 +45,10 @@ void delay_ms(uint time)
             ;
 }
 
-
 __bit busy;
 
 //向SPI总线传输一个8位数据
-void SPI_WriteData(uchar Data)
+void spi_write_byte(uchar Data)
 {
     unsigned char i = 0;
     for (i = 8; i > 0; i--)
@@ -69,7 +68,7 @@ void Lcd_WriteIndex(uchar Data)
 
     cs = 0;
     rs = 0;
-    SPI_WriteData(Data);
+    spi_write_byte(Data);
     cs = 1;
 }
 //向液晶屏写一个8位数据
@@ -77,7 +76,7 @@ void Lcd_WriteData(uchar Data)
 {
     cs = 0;
     rs = 1;
-    SPI_WriteData(Data);
+    spi_write_byte(Data);
     cs = 1;
 }
 //向液晶屏写一个16位数据
@@ -85,8 +84,8 @@ void LCD_WriteData_16Bit(unsigned int Data)
 {
     cs = 0;
     rs = 1;
-    SPI_WriteData(Data >> 8); //写入高8位数据
-    SPI_WriteData(Data);      //写入低8位数据
+    spi_write_byte(Data >> 8); //写入高8位数据
+    spi_write_byte(Data);      //写入低8位数据
     cs = 1;
 }
 

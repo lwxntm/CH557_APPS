@@ -51,13 +51,13 @@ void HWSPI_Init()
 {
     P3_MOD_OC &= ~((1 << 7) | (1 << 5)); //SCK1, MOSI1 推挽输出
     P3_DIR_PU |= ((1 << 7) | (1 << 5));
-    SPI1_CK_SE = 0x02;           //设置SPI1时钟分频系数： SPI速度 = 主频/SPI1_CK_SE
+    SPI1_CK_SE = 0x06;           //设置SPI1时钟分频系数： SPI速度 = 主频/SPI1_CK_SE
     SPI1_CTRL &= ~(bS1_CLR_ALL); // 重要！！！！不操作会导致无法工作：该位为1 清空SPI1中断标志和FIFO，需要软件清零，
     SPI1_CTRL |= bS1_SCK_OE;     //SPI1的SCK1 输出使能控制位，该位为1允许SCK1输出，如果bS1_2_WIRE=0，那么将同时允许MOSI1 输出使能；该位为0 禁止输出
 }
 
 //向SPI总线传输一个8位数据
-void SPI_WriteData(uchar Data)
+void spi_write_byte(uchar Data)
 {
     SPI1_DATA = Data;
     while (!(SPI1_STAT & 0x08))
@@ -68,7 +68,7 @@ void Lcd_WriteIndex(uchar Data)
 {
     cs = 0;
     rs = 0;
-    SPI_WriteData(Data);
+    spi_write_byte(Data);
     cs = 1;
 }
 //向液晶屏写一个8位数据
@@ -76,7 +76,7 @@ void Lcd_WriteData(uchar Data)
 {
     cs = 0;
     rs = 1;
-    SPI_WriteData(Data);
+    spi_write_byte(Data);
     cs = 1;
 }
 //向液晶屏写一个16位数据
@@ -84,8 +84,8 @@ void LCD_WriteData_16Bit(unsigned int Data)
 {
     cs = 0;
     rs = 1;
-    SPI_WriteData(Data >> 8); //写入高8位数据
-    SPI_WriteData(Data);      //写入低8位数据
+    spi_write_byte(Data >> 8); //写入高8位数据
+    spi_write_byte(Data);      //写入低8位数据
     cs = 1;
 }
 

@@ -16,16 +16,21 @@
                 "--xram-size 0x0400",
                 "--code-size 0x3800"
             ]
-        }
+        },
+        "use-non-free": true,
+        "misc-controls": "--iram-size 256 --xram-size 8192 --code-size 61440 --model-large",
+        "stack-auto": true
     },
     "c/cpp-compiler": {
-        "language-c": "c99",
-        "misc-controls": "--disable-warning 182"
+        "language-c": "sdcc99",
+        "misc-controls": "--disable-warning 182 --model-large"
     },
-    "asm-compiler": {},
+    "asm-compiler": {
+        "misc-controls": "--model-large"
+    },
     "linker": {
         "$mainFileName": "main",
         "output-format": "hex",
-        "misc-controls": "--xram-loc 0x0000 --xram-size 0x2000"
+        "misc-controls": "--xram-loc 0x0000 --xram-size 0x2000 --model-large"
     }
 }
